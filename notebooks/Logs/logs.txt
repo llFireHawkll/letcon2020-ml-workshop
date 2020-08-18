@@ -1,0 +1,423 @@
+[2020-08-18 03:02:23] uvicorn.error: INFO Started server process [8048]
+[2020-08-18 03:02:23] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:02:23] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:05:20] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:06:59] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:08:13] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:09:02] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:09:43] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:09:52] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:10:11] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:10:26] uvicorn.error: INFO Started server process [13920]
+[2020-08-18 03:10:26] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:10:26] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:10:34] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:10:43] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:11:35] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:11:40] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:11:51] uvicorn.error: INFO Started server process [13484]
+[2020-08-18 03:11:51] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:11:51] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:11:51] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:14:05] uvicorn.error: INFO Started server process [12312]
+[2020-08-18 03:14:05] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:14:05] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:14:05] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:14:58] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:15:32] uvicorn.error: INFO Started server process [9928]
+[2020-08-18 03:15:32] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:15:32] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:15:32] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:17:57] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:20:45] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:22:30] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:22:36] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:22:49] uvicorn.error: INFO Started server process [10820]
+[2020-08-18 03:22:49] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:22:49] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:22:49] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:22:57] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:24:11] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:24:45] uvicorn.error: INFO Started server process [2072]
+[2020-08-18 03:24:45] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:24:45] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:24:56] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:25:04] predict_api: ERROR Critical Error Occurred...
+[2020-08-18 03:26:56] uvicorn.error: INFO Started server process [3232]
+[2020-08-18 03:26:56] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:26:56] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:26:57] uvicorn.error: ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 388, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\applications.py", line 181, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 149, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "../src/app\predict.py", line 51, in predict
+    processed_data = data_pipeline.do_preprocessing(x_data=data)
+  File "..\src\data_loader\data_ml.py", line 333, in do_preprocessing
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+  File "..\src\data_loader\data_ml.py", line 333, in <listcomp>
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+TypeError: 'Data' object is not subscriptable
+[2020-08-18 03:27:57] uvicorn.error: ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 388, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\applications.py", line 181, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 149, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "../src/app\predict.py", line 51, in predict
+    processed_data = data_pipeline.do_preprocessing(x_data=data)
+  File "..\src\data_loader\data_ml.py", line 333, in do_preprocessing
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+  File "..\src\data_loader\data_ml.py", line 333, in <listcomp>
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+TypeError: 'Data' object is not subscriptable
+[2020-08-18 03:30:05] uvicorn.error: INFO Started server process [3716]
+[2020-08-18 03:30:05] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:30:05] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:30:07] uvicorn.error: ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 388, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\applications.py", line 181, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 149, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "../src/app\predict.py", line 52, in predict
+    processed_data = data_pipeline.do_preprocessing(x_data=data)
+  File "..\src\data_loader\data_ml.py", line 333, in do_preprocessing
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+  File "..\src\data_loader\data_ml.py", line 333, in <listcomp>
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+TypeError: 'Data' object is not subscriptable
+[2020-08-18 03:31:24] uvicorn.error: INFO Started server process [5708]
+[2020-08-18 03:31:24] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:31:24] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:31:37] uvicorn.error: ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 388, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\applications.py", line 181, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 149, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "../src/app\predict.py", line 52, in predict
+    processed_data = data_pipeline.do_preprocessing(x_data=data)
+  File "..\src\data_loader\data_ml.py", line 333, in do_preprocessing
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+  File "..\src\data_loader\data_ml.py", line 333, in <listcomp>
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+TypeError: 'ModelMetaclass' object is not subscriptable
+[2020-08-18 03:34:12] uvicorn.error: INFO Started server process [18824]
+[2020-08-18 03:34:12] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:34:12] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:34:17] uvicorn.error: ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 388, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\applications.py", line 181, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 149, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "../src/app\predict.py", line 52, in predict
+    processed_data = data_pipeline.do_preprocessing(x_data=data)
+  File "..\src\data_loader\data_ml.py", line 333, in do_preprocessing
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+  File "..\src\data_loader\data_ml.py", line 333, in <listcomp>
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+TypeError: 'Data' object is not subscriptable
+[2020-08-18 03:35:05] uvicorn.error: INFO Started server process [19976]
+[2020-08-18 03:35:05] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:35:05] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:35:05] uvicorn.error: ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 388, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\applications.py", line 181, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 149, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "../src/app\predict.py", line 52, in predict
+    processed_data = data_pipeline.do_preprocessing(x_data=data)
+  File "..\src\data_loader\data_ml.py", line 334, in do_preprocessing
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+  File "..\src\data_loader\data_ml.py", line 334, in <listcomp>
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+TypeError: 'Data' object is not subscriptable
+[2020-08-18 03:35:44] uvicorn.error: ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 388, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\applications.py", line 181, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 149, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "../src/app\predict.py", line 52, in predict
+    processed_data = data_pipeline.do_preprocessing(x_data=data)
+  File "..\src\data_loader\data_ml.py", line 334, in do_preprocessing
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+  File "..\src\data_loader\data_ml.py", line 334, in <listcomp>
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+TypeError: 'Data' object is not subscriptable
+[2020-08-18 03:35:50] uvicorn.error: ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 388, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\applications.py", line 181, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 149, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "../src/app\predict.py", line 52, in predict
+    processed_data = data_pipeline.do_preprocessing(x_data=data)
+  File "..\src\data_loader\data_ml.py", line 334, in do_preprocessing
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+  File "..\src\data_loader\data_ml.py", line 334, in <listcomp>
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+TypeError: 'Data' object is not subscriptable
+[2020-08-18 03:36:01] uvicorn.error: INFO Started server process [10204]
+[2020-08-18 03:36:01] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:36:01] uvicorn.error: INFO Application startup complete.
+[2020-08-18 03:36:02] uvicorn.error: ERROR Exception in ASGI application
+Traceback (most recent call last):
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\protocols\http\h11_impl.py", line 388, in run_asgi
+    result = await app(self.scope, self.receive, self.send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\uvicorn\middleware\proxy_headers.py", line 45, in __call__
+    return await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\applications.py", line 181, in __call__
+    await super().__call__(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\applications.py", line 111, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 181, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\middleware\errors.py", line 159, in __call__
+    await self.app(scope, receive, _send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 82, in __call__
+    raise exc from None
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 566, in __call__
+    await route.handle(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 227, in handle
+    await self.app(scope, receive, send)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\routing.py", line 41, in app
+    response = await func(request)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 197, in app
+    dependant=dependant, values=values, is_coroutine=is_coroutine
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\fastapi\routing.py", line 149, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\site-packages\starlette\concurrency.py", line 34, in run_in_threadpool
+    return await loop.run_in_executor(None, func, *args)
+  File "c:\users\spars\anaconda3\envs\deeplearning\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "../src/app\predict.py", line 52, in predict
+    processed_data = data_pipeline.do_preprocessing(x_data=data)
+  File "..\src\data_loader\data_ml.py", line 334, in do_preprocessing
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+  File "..\src\data_loader\data_ml.py", line 334, in <listcomp>
+    data_to_predict = np.array([x_data[feature] for feature in self.x_modelling_vars]).reshape(1, -1)
+TypeError: 'Data' object is not subscriptable
+[2020-08-18 03:37:58] uvicorn.error: INFO Started server process [9436]
+[2020-08-18 03:37:58] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 03:37:58] uvicorn.error: INFO Application startup complete.
+[2020-08-18 23:58:30] uvicorn.error: INFO Started server process [1820]
+[2020-08-18 23:58:30] uvicorn.error: INFO Waiting for application startup.
+[2020-08-18 23:58:30] uvicorn.error: INFO Application startup complete.
+[2020-08-19 00:05:01] uvicorn.error: INFO Started server process [20940]
+[2020-08-19 00:05:01] uvicorn.error: INFO Waiting for application startup.
+[2020-08-19 00:05:01] uvicorn.error: INFO Application startup complete.
